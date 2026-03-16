@@ -190,13 +190,13 @@ function DeleteAccount() {
             </div>
 
             {/* What will be deleted List */}
-            <div className="space-y-6 relative before:absolute before:inset-0 before:bg-gradient-to-b before:from-transparent before:via-transparent before:to-white/60 before:z-0 mb-8">
+            <div className="space-y-6 relative before:absolute before:inset-0 before:bg-linear-to-b before:from-transparent before:via-transparent before:to-white/60 before:z-0 mb-8">
               <h3 className="text-[13px] font-bold uppercase tracking-widest text-slate-400 mb-4 px-1">{t('deleteAccount.whatDeleted.title')}</h3>
 
               <ul className="space-y-5 relative z-10">
                 <li className="flex gap-4 items-center group">
                   <div className="w-11 h-11 rounded-2xl bg-red-50/50 flex items-center justify-center shrink-0 border border-slate-100 group-hover:bg-red-50 group-hover:border-red-100 group-hover:shadow-[0_4px_12px_rgba(239,68,68,0.1)] transition-all duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-[22px] h-[22px] text-red-500 opacity-80 group-hover:opacity-100 transition-opacity">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5.5 h-5.5 text-red-500 opacity-80 group-hover:opacity-100 transition-opacity">
                       <path fillRule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clipRule="evenodd" />
                     </svg>
                   </div>
@@ -208,7 +208,7 @@ function DeleteAccount() {
 
                 <li className="flex gap-4 items-center group">
                   <div className="w-11 h-11 rounded-2xl bg-red-50/50 flex items-center justify-center shrink-0 border border-slate-100 group-hover:bg-red-50 group-hover:border-red-100 group-hover:shadow-[0_4px_12px_rgba(239,68,68,0.1)] transition-all duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-[22px] h-[22px] text-red-500 opacity-80 group-hover:opacity-100 transition-opacity">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5.5 h-5.5 text-red-500 opacity-80 group-hover:opacity-100 transition-opacity">
                       <path fillRule="evenodd" d="M4.804 21.644A6.707 6.707 0 0 0 6 21.75a6.721 6.721 0 0 0 3.583-1.029c.774.182 1.584.279 2.417.279 5.322 0 9.75-3.97 9.75-9 0-5.03-4.428-9-9.75-9s-9.75 3.97-9.75 9c0 2.409 1.025 4.587 2.674 6.192.232.226.277.428.254.543a3.73 3.73 0 0 1-.814 1.686.75.75 0 0 0 .44 1.223ZM8.25 10.875a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25ZM10.875 12a1.125 1.125 0 1 1 2.25 0 1.125 1.125 0 0 1-2.25 0Zm4.875-1.125a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25Z" clipRule="evenodd" />
                     </svg>
                   </div>
@@ -232,7 +232,7 @@ function DeleteAccount() {
 
                 <li className="flex gap-4 items-center group">
                   <div className="w-11 h-11 rounded-2xl bg-red-50/50 flex items-center justify-center shrink-0 border border-slate-100 group-hover:bg-red-50 group-hover:border-red-100 group-hover:shadow-[0_4px_12px_rgba(239,68,68,0.1)] transition-all duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-[22px] h-[22px] text-red-500 opacity-80 group-hover:opacity-100 transition-opacity">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5.5 h-5.5 text-red-500 opacity-80 group-hover:opacity-100 transition-opacity">
                       <path fillRule="evenodd" d="M1.5 6a2.25 2.25 0 0 1 2.25-2.25h16.5A2.25 2.25 0 0 1 22.5 6v12a2.25 2.25 0 0 1-2.25 2.25H3.75A2.25 2.25 0 0 1 1.5 18V6ZM3 16.06V18c0 .414.336.75.75.75h16.5A.75.75 0 0 0 21 18v-1.94l-2.69-2.689a1.5 1.5 0 0 0-2.12 0l-.88.879.97.97a.75.75 0 1 1-1.06 1.06l-5.16-5.159a1.5 1.5 0 0 0-2.12 0L3 16.061Zm10.125-7.81a1.125 1.125 0 1 1 2.25 0 1.125 1.125 0 0 1-2.25 0Z" clipRule="evenodd" />
                     </svg>
                   </div>
@@ -247,12 +247,12 @@ function DeleteAccount() {
             {/* Alternatives Box */}
             <div className="bg-slate-50/50 border border-slate-200 rounded-[1.25rem] p-5 hover:bg-slate-50 transition-colors">
               <div className="flex items-center gap-3 mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-[22px] h-[22px] text-slate-800">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5.5 h-5.5 text-slate-800">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
                 </svg>
                 <h3 className="font-bold text-[16px] text-slate-800">{t('deleteAccount.alternatives.title')}</h3>
               </div>
-              <ul className="space-y-3.5 pl-[2px]">
+              <ul className="space-y-3.5 pl-0.5">
                 <li className="flex gap-2.5 items-start">
                   <div className="w-1.5 h-1.5 rounded-full bg-slate-300 mt-2 shrink-0"></div>
                   <span className="text-[14.5px] text-slate-600 font-medium">{t('deleteAccount.alternatives.item1')}</span>
@@ -272,7 +272,7 @@ function DeleteAccount() {
 
       case 2:
         return (
-          <div className="animate-in fade-in slide-in-from-right-8 duration-500 min-h-[460px] flex flex-col justify-center">
+          <div className="animate-in fade-in slide-in-from-right-8 duration-500 min-h-115 flex flex-col justify-center">
             <button
               onClick={() => {
                 setStep(1);
@@ -286,7 +286,7 @@ function DeleteAccount() {
             </button>
 
             <div className="text-center mb-8">
-              <div className="mx-auto w-16 h-16 bg-[#2196F3]/10 text-[#2196F3] flex items-center justify-center rounded-2xl mb-6 shadow-sm border border-[#2196F3]/20">
+              <div className="mx-auto w-16 h-16 bg-primary-500/10 text-[#2196F3] flex items-center justify-center rounded-2xl mb-6 shadow-sm border border-primary-500/20">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-8 h-8">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
                 </svg>
@@ -323,7 +323,7 @@ function DeleteAccount() {
 
       case 3:
         return (
-          <div className="animate-in fade-in slide-in-from-right-8 duration-500 min-h-[460px] flex flex-col justify-center">
+          <div className="animate-in fade-in slide-in-from-right-8 duration-500 min-h-115 flex flex-col justify-center">
             <button
               onClick={() => {
                 setStep(2);
@@ -337,7 +337,7 @@ function DeleteAccount() {
             </button>
 
             <div className="text-center mb-10">
-              <div className="mx-auto w-16 h-16 bg-[#2196F3]/10 text-[#2196F3] flex items-center justify-center rounded-2xl mb-6 shadow-sm border border-[#2196F3]/20">
+              <div className="mx-auto w-16 h-16 bg-primary-500/10 text-[#2196F3] flex items-center justify-center rounded-2xl mb-6 shadow-sm border border-[#2196F3]/20">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-8 h-8">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
                 </svg>
@@ -417,9 +417,9 @@ function DeleteAccount() {
                       setIsChecked(e.target.checked);
                       if (!e.target.checked) setConfirmText('');
                     }}
-                    className="peer appearance-none w-[22px] h-[22px] bg-white border border-slate-300 rounded-[6px] hover:border-slate-400 checked:bg-[#2196F3] checked:border-[#2196F3] cursor-pointer transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-[#2196F3]/20 shadow-sm"
+                    className="peer appearance-none w-5.5 h-5.5 bg-white border border-slate-300 rounded-md hover:border-slate-400 checked:bg-[#2196F3] checked:border-[#2196F3] cursor-pointer transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-[#2196F3]/20 shadow-sm"
                   />
-                  <svg className="absolute w-3.5 h-3.5 text-white left-[4px] pointer-events-none opacity-0 scale-50 peer-checked:scale-100 peer-checked:opacity-100 transition-all duration-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                  <svg className="absolute w-3.5 h-3.5 text-white left-1 pointer-events-none opacity-0 scale-50 peer-checked:scale-100 peer-checked:opacity-100 transition-all duration-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
                 </div>
@@ -550,7 +550,7 @@ function DeleteAccount() {
               disabled={!isTargetTextConfirmed || loading}
               onClick={handleDeleteAccount}
               className={`
-                w-full py-[18px] text-[15.5px] font-bold rounded-xl transition-all duration-300 flex items-center justify-center gap-2
+                w-full py-4.5 text-[15.5px] font-bold rounded-xl transition-all duration-300 flex items-center justify-center gap-2
                 ${isTargetTextConfirmed && !loading
                   ? 'bg-red-500 text-white hover:bg-red-600 shadow-[0_8px_20px_-6px_rgba(239,68,68,0.5)] transform hover:-translate-y-0.5 cursor-pointer'
                   : 'bg-slate-200/70 text-slate-400 cursor-not-allowed border border-slate-200'}
@@ -563,7 +563,7 @@ function DeleteAccount() {
             <button
               type="button"
               onClick={resetEverything}
-              className="w-full py-[18px] text-[15.5px] font-bold text-slate-700 hover:text-slate-900 transition-all duration-200 bg-white border-2 border-slate-200 hover:border-slate-300 hover:bg-slate-50 rounded-xl hover:shadow-[0_4px_12px_rgba(0,0,0,0.03)]"
+              className="w-full py-4.5 text-[15.5px] font-bold text-slate-700 hover:text-slate-900 transition-all duration-200 bg-white border-2 border-slate-200 hover:border-slate-300 hover:bg-slate-50 rounded-xl hover:shadow-[0_4px_12px_rgba(0,0,0,0.03)]"
             >
               {t('deleteAccount.buttons.cancel')}
             </button>
@@ -573,13 +573,13 @@ function DeleteAccount() {
   };
 
   return (
-    <div className="fixed inset-0 bg-slate-50 font-sans flex items-center justify-center p-0 sm:p-8 selection:bg-[#2196F3]/20 selection:text-slate-900 overflow-hidden">
+    <div className="fixed inset-0 bg-slate-50 font-sans flex items-center justify-center p-0 sm:p-8 selection:bg-primary-500/20 selection:text-slate-900 overflow-hidden">
 
       {/* Background Soft Ambient Light */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#2196F3]/10 rounded-full blur-[120px] pointer-events-none mix-blend-multiply"></div>
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-150 bg-primary-500/10 rounded-full blur-[120px] pointer-events-none mix-blend-multiply"></div>
 
       {/* Main Container - App Like Layout */}
-      <div className="max-w-[440px] w-full h-full sm:max-h-[820px] bg-white sm:rounded-[2rem] shadow-[0_20px_60px_-15px_rgba(0,0,0,0.08)] border-0 sm:border sm:border-slate-100 relative z-10 flex flex-col overflow-hidden">
+      <div className="max-w-110 w-full h-full sm:max-h-205 bg-white sm:rounded-4xl shadow-[0_20px_60px_-15px_rgba(0,0,0,0.08)] border-0 sm:border sm:border-slate-100 relative z-10 flex flex-col overflow-hidden">
 
         {/* Progress Bar */}
         <div className="w-full h-1.5 bg-slate-200/60 flex shrink-0">
