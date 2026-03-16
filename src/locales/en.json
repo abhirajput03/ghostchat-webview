@@ -1,0 +1,402 @@
+{
+  "common": {
+    "brandName": "Ghost Chat"
+  },
+  "deleteAccount": {
+    "header": {
+      "warning": "We're sorry to see you go!",
+      "description": "Before you delete your account, please note that this action is permanent and cannot be undone."
+    },
+    "whatDeleted": {
+      "title": "What will be permanently deleted:",
+      "profile": {
+        "title": "Profile & Personal Data",
+        "description": "Your profile, preferences, and all personal information"
+      },
+      "chat": {
+        "title": "Chat History",
+        "description": "All your past messages"
+      },
+      "call": {
+        "title": "Call History",
+        "description": "All your voice call records"
+      },
+      "media": {
+        "title": "Media Files",
+        "description": "All shared photos, videos, documents"
+      }
+    },
+    "alternatives": {
+      "title": "Consider these alternatives:",
+      "item1": "Temporarily disable notifications in settings",
+      "item2": "Log out to take a break from the app",
+      "item3": "Contact support if you're experiencing issues"
+    },
+    "steps": {
+      "step2": {
+        "title": "Verify it's you",
+        "description": "Please enter your registered mobile number to receive a verification code.",
+        "label": "Mobile Number",
+        "button": "Send Verification Code",
+        "sending": "Sending..."
+      },
+      "step3": {
+        "title": "Enter Verification Code",
+        "description": "We've sent a 6-digit code to {{phone}}",
+        "resend": "Resend code",
+        "button": "Verify and Continue",
+        "verifying": "Verifying..."
+      },
+      "step4": {
+        "title": "Final Confirmation",
+        "description": "Please complete the final steps below to permanently delete your account.",
+        "checkboxPart1": "I understand that deleting my account is permanent and I have read the ",
+        "terms": "Terms & Conditions",
+        "and": " and ",
+        "privacy": "Privacy Policy",
+        "checkboxPart2": ".",
+        "typeToConfirm": "To confirm, please type:",
+        "targetText": "Delete my account",
+        "button": "Permanently Delete My Account",
+        "deleting": "Deleting..."
+      }
+    },
+    "buttons": {
+      "continue": "Continue to Delete Account",
+      "keep": "Keep My Account",
+      "cancel": "Cancel Process"
+    },
+    "errors": {
+      "failed": "Verification failed. Please try again."
+    }
+  },
+  "terms": {
+    "header": {
+      "title": "Ghost Chat — Terms of Service",
+      "effectiveDate": "Effective Date: ",
+      "date": "10 March 2026"
+    },
+    "hero": {
+      "title": "Please read these terms carefully",
+      "p1": "These Terms of Service (\"Terms\") govern your access to and use of the Ghost Chat mobile application, website, and related communication services.",
+      "p2": "By downloading, installing, or using the Ghost Chat application, you acknowledge that you have read, understood, and agree to be bound by these Terms.",
+      "p3": "If you do not agree with these Terms, you should discontinue use of the Service."
+    },
+    "sections": [
+      {
+        "title": "1. Definitions",
+        "icon": "📖",
+        "paragraphs": [
+          "\"Ghost Chat\" refers to the messaging platform, mobile application, and associated services operated under this name.",
+          "\"User\" refers to any individual who downloads, registers, or interacts with the Service.",
+          "\"Content\" refers to messages, images, videos, profile information, and other data shared through the platform."
+        ]
+      },
+      {
+        "title": "2. Introduction",
+        "icon": "👋",
+        "paragraphs": [
+          "Ghost Chat provides a communication platform that allows users to send messages, share media, and interact with other users.",
+          "The Service aims to provide a safe and efficient messaging experience while encouraging respectful and responsible communication."
+        ]
+      },
+      {
+        "title": "3. Eligibility",
+        "icon": "✅",
+        "items": [
+          "You must be at least 10 years old to use the Service.",
+          "You agree to comply with all applicable laws and regulations.",
+          "You must have the legal authority to accept these Terms."
+        ]
+      },
+      {
+        "title": "4. User Accounts",
+        "icon": "👤",
+        "paragraphs": [
+          "To access certain features, users must create an account. You agree to provide accurate and up-to-date information."
+        ],
+        "items": [
+          "Keep login credentials confidential",
+          "Notify us of unauthorized access",
+          "Do not share or sell accounts"
+        ]
+      },
+      {
+        "title": "5. Description of the Service",
+        "icon": "💬",
+        "paragraphs": [
+          "Ghost Chat is a communication platform designed to help users connect and communicate with others in real time.",
+          "The services provided by Ghost Chat may include, but are not limited to:"
+        ],
+        "items": [
+          "Instant text messaging between users",
+          "Voice calling between registered users",
+          "Sharing of images, media files, and other content",
+          "User profiles and account personalization",
+          "Real-time notifications and messaging updates"
+        ],
+        "footer": "Ghost Chat acts only as a platform for communication and does not control, monitor, or guarantee the actions, behavior, or content shared by users."
+      },
+      {
+        "title": "6. Acceptable Use Policy",
+        "icon": "🚫",
+        "intro": "Users must not:",
+        "items": [
+          "Misuse voice calling features to harass or spam other users",
+          "Share illegal or harmful content",
+          "Distribute spam or advertising messages",
+          "Impersonate individuals or organizations",
+          "Upload malware or harmful code",
+          "Attempt unauthorized system access",
+          "Use the platform for fraudulent activity"
+        ]
+      },
+      {
+        "title": "7. User Generated Content",
+        "icon": "📝",
+        "paragraphs": [
+          "Users retain ownership of the content they share. However, by posting content on Ghost Chat, you grant the platform a limited license to process and transmit that content for operational purposes."
+        ]
+      },
+      {
+        "title": "8. Content Moderation",
+        "icon": "🛡️",
+        "paragraphs": [
+          "Ghost Chat may review, remove, or restrict content that violates these Terms or applicable laws.",
+          "Accounts engaging in harmful activity may be suspended or permanently banned."
+        ]
+      },
+      {
+        "title": "9. Platform Security",
+        "icon": "🔒",
+        "paragraphs": [
+          "Users may not interfere with the platform's security systems. Unauthorized access attempts may result in account termination and possible legal action."
+        ]
+      },
+      {
+        "title": "10. Service Availability",
+        "icon": "📡",
+        "paragraphs": [
+          "While we strive to maintain reliable services, Ghost Chat does not guarantee uninterrupted operation.",
+          "Maintenance or technical issues may cause temporary outages."
+        ]
+      },
+      {
+        "title": "11. Intellectual Property",
+        "icon": "©️",
+        "paragraphs": [
+          "All software, branding, and platform materials associated with Ghost Chat remain the property of Ghost Chat or its licensors."
+        ]
+      },
+      {
+        "title": "12. Account Suspension and Termination",
+        "icon": "⛔",
+        "paragraphs": [
+          "Ghost Chat reserves the right to suspend or terminate accounts that violate these Terms, engage in illegal activity, or abuse the Service."
+        ]
+      },
+      {
+        "title": "13. Disclaimer of Warranties",
+        "icon": "⚠️",
+        "paragraphs": [
+          "The Service is provided \"as is\" without warranties of any kind."
+        ]
+      },
+      {
+        "title": "14. Limitation of Liability",
+        "icon": "🏛️",
+        "paragraphs": [
+          "Ghost Chat shall not be liable for damages arising from the use of the Service."
+        ]
+      },
+      {
+        "title": "15. Indemnification",
+        "icon": "🤝",
+        "paragraphs": [
+          "Users agree to indemnify and hold harmless Ghost Chat from claims arising from misuse of the platform."
+        ]
+      },
+      {
+        "title": "16. Service Modifications",
+        "icon": "🔧",
+        "paragraphs": [
+          "Ghost Chat may update, modify, or discontinue features of the Service at any time."
+        ]
+      },
+      {
+        "title": "17. Governing Law",
+        "icon": "⚖️",
+        "paragraphs": [
+          "These Terms are governed by the laws of India."
+        ]
+      },
+      {
+        "title": "18. Changes to Terms",
+        "icon": "📋",
+        "paragraphs": [
+          "We may revise these Terms periodically. Updated Terms will be posted with a revised effective date."
+        ]
+      },
+      {
+        "title": "19. Contact Information",
+        "icon": "📬",
+        "paragraphs": [
+          "If you have questions regarding these Terms:"
+        ],
+        "contact": "ghostchatsupport@gmail.com"
+      }
+    ],
+    "footer": {
+      "rights": "© 2026 Ghost Chat. All rights reserved."
+    }
+  },
+  "privacy": {
+    "header": {
+      "title": "Ghost Chat — Privacy Policy",
+      "effectiveDate": "Effective Date: ",
+      "date": "10 March 2026"
+    },
+    "hero": {
+      "title": "Your privacy matters to us",
+      "p1": "Ghost Chat (\"we\", \"our\", or \"us\") values your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, store, disclose, and safeguard your information when you use the Ghost Chat mobile application and related services.",
+      "p2": "By downloading, accessing, or using Ghost Chat, you agree to the collection and use of information in accordance with this Privacy Policy."
+    },
+    "sections": [
+      {
+        "title": "1. Information We Collect",
+        "icon": "📋",
+        "paragraphs": [
+          "We may collect several types of information to provide and improve our services:"
+        ],
+        "items": [
+          {
+            "bold": "Account Information:",
+            "text": " Phone number, email address, or login credentials used to create an account."
+          },
+          {
+            "bold": "Profile Information:",
+            "text": " Username, profile photo, biography, and other details you voluntarily provide."
+          },
+          {
+            "bold": "Messages & Communication Data:",
+            "text": " Messages, images, audio files, videos, call logs, and other media shared between users through messaging, voice calls."
+          },
+          {
+            "bold": "Device Information:",
+            "text": " Device model, operating system version, device identifiers, and app version."
+          },
+          {
+            "bold": "Usage Information:",
+            "text": " Information about how the application is used, including feature interactions."
+          },
+          {
+            "bold": "Log Data:",
+            "text": " Technical logs such as IP address, crash reports, diagnostics, and performance metrics."
+          }
+        ],
+        "richItems": true
+      },
+      {
+        "title": "2. How We Use Your Information",
+        "icon": "🎯",
+        "paragraphs": [
+          "Your information may be used for the following purposes:"
+        ],
+        "items": [
+          "Providing messaging, voice calling communication services",
+          "Improving application performance and reliability",
+          "Ensuring security and preventing abuse or fraud",
+          "Providing customer support and technical assistance",
+          "Analyzing user experience to enhance features"
+        ]
+      },
+      {
+        "title": "3. Communication Privacy",
+        "icon": "💬",
+        "paragraphs": [
+          "Ghost Chat is designed to support private communication between users, including text messaging and voice calls.",
+          "Communication data may be transmitted through secure technologies to enable real-time interaction between users.",
+          "While we implement security measures to protect communication data, no digital system can guarantee absolute security. Users should exercise caution when sharing sensitive information."
+        ]
+      },
+      {
+        "title": "4. Data Storage and Retention",
+        "icon": "🗄️",
+        "paragraphs": [
+          "We retain personal information only as long as necessary to provide services, comply with legal obligations, resolve disputes, and enforce agreements.",
+          "Some information may remain temporarily in backups or logs for operational and security purposes."
+        ]
+      },
+      {
+        "title": "5. Data Security",
+        "icon": "🔒",
+        "paragraphs": [
+          "We implement appropriate technical and organizational measures to protect personal information from unauthorized access, disclosure, alteration, or destruction.",
+          "Security measures include encrypted communication, secure servers, and access control systems."
+        ]
+      },
+      {
+        "title": "6. Third-Party Services",
+        "icon": "🤝",
+        "paragraphs": [
+          "Ghost Chat may rely on trusted third-party services to operate and improve the platform."
+        ],
+        "items": [
+          "Cloud hosting providers",
+          "Analytics platforms",
+          "Push notification services",
+          "Security monitoring systems"
+        ],
+        "footer": "These providers process data only as necessary to deliver their services."
+      },
+      {
+        "title": "7. User Rights and Choices",
+        "icon": "⚙️",
+        "paragraphs": [
+          "Users have rights regarding their personal data, including:"
+        ],
+        "items": [
+          "Accessing personal information",
+          "Updating profile data",
+          "Deleting account information",
+          "Managing privacy settings"
+        ],
+        "footer": "Users may modify profile information or delete their account through the application settings."
+      },
+      {
+        "title": "8. Children's Privacy",
+        "icon": "👶",
+        "paragraphs": [
+          "Ghost Chat is not intended for children under the age of 10. We do not knowingly collect personal information from children.",
+          "If such information is discovered, we will promptly remove it."
+        ]
+      },
+      {
+        "title": "9. Changes to This Privacy Policy",
+        "icon": "📋",
+        "paragraphs": [
+          "We may update this Privacy Policy periodically to reflect changes in services, technology, or legal requirements.",
+          "Updated versions will include a revised effective date."
+        ]
+      },
+      {
+        "title": "10. Governing Law",
+        "icon": "⚖️",
+        "paragraphs": [
+          "This Privacy Policy shall be governed and interpreted in accordance with the laws of India."
+        ]
+      },
+      {
+        "title": "11. Contact Us",
+        "icon": "📬",
+        "paragraphs": [
+          "If you have questions or concerns regarding this Privacy Policy, please contact us:"
+        ],
+        "contact": "ghostchatsupport@gmail.com"
+      }
+    ],
+    "footer": {
+      "rights": "© 2026 Ghost Chat. All rights reserved."
+    }
+  }
+}
